@@ -1,3 +1,6 @@
+
+require 'appmap/rspec'
+
 require 'rubygems'
 require 'thin'
 require 'benchmark'
