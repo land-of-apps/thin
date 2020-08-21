@@ -3,4 +3,4 @@ version: ~> 1.0
 
 script:
 - bundle exec rake install
-- bundle exec rspec spec
+- bundle exec rake spec
