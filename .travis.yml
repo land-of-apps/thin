@@ -5,6 +5,7 @@ import:
 - land-of-apps/land-of-apps:travis/ruby-imports.yml
 
 script:
+- bundle exec update
 - bundle exec rspec
 
 after_script:
