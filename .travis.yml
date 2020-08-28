@@ -1,6 +1,12 @@
 # Turn on validation, so we can use import:
 version: ~> 1.0
 
+import:
+- land-of-apps/land-of-apps:travis/ruby-imports.yml
+
 script:
-- bundle exec rake install
-- bundle exec rake spec
+- bundle exec rspec
+
+after_script:
+- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec
+
