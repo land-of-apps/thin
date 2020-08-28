@@ -1,14 +1,11 @@
 # Turn on validation, so we can use import:
 version: ~> 1.0
 
-os:
-- osx
-
 import:
 - land-of-apps/land-of-apps:travis/ruby-imports.yml
 
 script:
-- bundle exec update
+- bundle exec install
 - bundle exec rspec
 
 after_script:
