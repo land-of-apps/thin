@@ -15,5 +15,5 @@ before_script:
 - gem install thin
 
 script:
-- bundle exec rspec
+- APPMAP=true bundle exec rspec
 
