@@ -10,7 +10,8 @@ rvm:
 import:
 - land-of-apps/land-of-apps:travis/ruby-imports.yml
 
-before_install:
+before_script:
+- gem install eventmachine --pre
 - gem install thin
 
 script:
