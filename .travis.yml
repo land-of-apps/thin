@@ -11,8 +11,7 @@ import:
 - land-of-apps/land-of-apps:travis/ruby-imports.yml
 
 before_install:
-- gem install bundler:2.1.4
-- bundle update
+- gem install thin
 
 script:
 - bundle exec rspec
