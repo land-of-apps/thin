@@ -107,3 +107,6 @@ end
 
 # All that for this:
 Rails.boot!
+
+# will this break?
+require "appmap/railtie"

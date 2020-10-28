@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "appmap"
+
 gemspec
 
 group :development do

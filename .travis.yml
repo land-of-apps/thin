@@ -17,6 +17,3 @@ before_install:
 script:
 - bundle exec rspec
 
-after_script:
-- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec
-
